@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.352
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Count Words in a String", "Count Words in a String\Count Words in a String.csproj", "{3E632459-9297-4F4C-B47D-0861F1791EAD}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Count_Words_in_a_String", "Count_Words_in_a_String", "{87F7B3FD-BC81-4C3B-AC36-988162559CB3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Print all letters and their ASCII codes", "Print all letters and their ASCII codes", "{6FA7A7A2-2D4D-4091-94CA-45C278EC715C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Count Words in a String_2", "Count Words in a String_2\Count Words in a String_2.csproj", "{959430D2-C4CE-4872-B6A9-E81685A20779}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +15,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3E632459-9297-4F4C-B47D-0861F1791EAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3E632459-9297-4F4C-B47D-0861F1791EAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3E632459-9297-4F4C-B47D-0861F1791EAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3E632459-9297-4F4C-B47D-0861F1791EAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{959430D2-C4CE-4872-B6A9-E81685A20779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{959430D2-C4CE-4872-B6A9-E81685A20779}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{959430D2-C4CE-4872-B6A9-E81685A20779}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{959430D2-C4CE-4872-B6A9-E81685A20779}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{959430D2-C4CE-4872-B6A9-E81685A20779} = {87F7B3FD-BC81-4C3B-AC36-988162559CB3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5742BB08-7732-401F-AC5D-CBF89102BC13}
