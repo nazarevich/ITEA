@@ -25,7 +25,7 @@ namespace Count_Words_in_a_String
 
                 if (Choose1 == 1)
                 {
-                    line = File.ReadAllText(@"D:\\2.txt");
+                    line = File.ReadAllText(@"D:\\3.txt");
                 }
                 else if (Choose1 == 2)
                 {
@@ -43,6 +43,13 @@ namespace Count_Words_in_a_String
 
                 Console.WriteLine(line);
                 Console.WriteLine("Word Count = " + DelAndCount.WordCount(line), Color.Red);
+
+                int count = WordsCounter.WordSeparator(line).Length;
+                Console.WriteLine("Word Count 2 = " + count, Color.Yellow);
+                Console.WriteLine("Statistics of the words", Color.Blue);
+                WordsCounter.WordStatPrint(line);
+                //int len = WordsCounter.WordLength(count, WordsCounter.WordSeparator(line));
+                //Console.WriteLine(len);
             }
 
            

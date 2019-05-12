@@ -23,5 +23,7 @@ namespace Count_Words_in_a_String_2
             int spacecount = line.Split(' ').Length;
             return spacecount;
         }
+
+    
     }
 }

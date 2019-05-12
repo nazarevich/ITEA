@@ -11,13 +11,27 @@ namespace Print_all_letters_and_their_ASCII_codes
     {
         static void Main(string[] args)
         {
-            
-            
-            for (int i = 0; i < 127; i++)
+
+            int counter = default;
+            for (int i = 32; i < 127; i++)
             {
                 char charnum = (char)i;
                 string value = $"[{i}] = {charnum}";
-                Console.WriteLine(value);
+                //Console.WriteLine(value);
+                if (i < 100)
+                {
+                    Console.Write($"[{i}]" + "  = " + charnum + "  ");
+                }
+                else
+                {
+                    Console.Write($"[{i}]" + " = " + charnum + "  ");
+                }
+                counter++;
+                if (counter == 4)
+                {
+                    Console.Write('\n');
+                    counter = 0;
+                }
             }
             Console.ReadLine();
         }
