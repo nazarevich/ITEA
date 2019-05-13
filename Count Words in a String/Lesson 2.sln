@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Count Words in a String_2",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Print all letters and their ASCII codes", "Print all letters and their ASCII codes\Print all letters and their ASCII codes.csproj", "{B520132E-D0DB-4CC4-A1F8-769DA645BAD5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Caesar cipher", "Caesar cipher", "{9DFFC570-CC12-4F16-9BB9-43CF37B28367}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caesar cipher", "Caesar cipher\Caesar cipher.csproj", "{6DCC5838-E857-4EDC-A675-EF09C89F295D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,10 @@ Global
 		{B520132E-D0DB-4CC4-A1F8-769DA645BAD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B520132E-D0DB-4CC4-A1F8-769DA645BAD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B520132E-D0DB-4CC4-A1F8-769DA645BAD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DCC5838-E857-4EDC-A675-EF09C89F295D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DCC5838-E857-4EDC-A675-EF09C89F295D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DCC5838-E857-4EDC-A675-EF09C89F295D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DCC5838-E857-4EDC-A675-EF09C89F295D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{959430D2-C4CE-4872-B6A9-E81685A20779} = {87F7B3FD-BC81-4C3B-AC36-988162559CB3}
 		{B520132E-D0DB-4CC4-A1F8-769DA645BAD5} = {6FA7A7A2-2D4D-4091-94CA-45C278EC715C}
+		{6DCC5838-E857-4EDC-A675-EF09C89F295D} = {9DFFC570-CC12-4F16-9BB9-43CF37B28367}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5742BB08-7732-401F-AC5D-CBF89102BC13}

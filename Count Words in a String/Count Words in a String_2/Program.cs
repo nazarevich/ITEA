@@ -48,8 +48,7 @@ namespace Count_Words_in_a_String
                 Console.WriteLine("Word Count 2 = " + count, Color.Yellow);
                 Console.WriteLine("Statistics of the words", Color.Blue);
                 WordsCounter.WordStatPrint(line);
-                //int len = WordsCounter.WordLength(count, WordsCounter.WordSeparator(line));
-                //Console.WriteLine(len);
+               
             }
 
            
